@@ -7,4 +7,3 @@ class Review < ApplicationRecord
   validates :rating, inclusion: { in: RANGE }
   validates :rating, numericality: { only_integer: true }
 end
-
